@@ -6,7 +6,10 @@ export default function getAvailableAttackOptions(obj) {
       id, name, icon, description = 'Описание недоступно',
     } = elem;
     result.push({
-      id, name, icon, description,
+      id,
+      name,
+      icon,
+      description,
     });
   });
   return result;
